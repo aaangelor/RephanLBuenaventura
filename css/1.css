@@ -1,0 +1,270 @@
+#main-menu {
+	padding: 0;
+	text-align: center;
+	list-style: none;
+	display: grid;
+	grid-gap: 2px;
+	grid-template-columns: repeat(8,1fr);
+}
+.hmm {
+	background-color: black;
+}
+.main-header {
+	font-family: arial;
+	padding: 30px;                                                 
+	background: blue;
+}
+
+h1 {
+	font-family: Baskerville Old Face;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+	font-size: 3em;
+	color: red;
+}
+
+h3{
+	font-family: latha;
+	font-family: Baskerville Old Face;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+	font-size: 21px;
+}
+
+h4{
+	font-family: latha;
+	font-family: Baskerville Old Face;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+	font-size: 18px;
+}
+
+h2{
+	font-family: verdana;
+	font-family: Baskerville Old Face;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+	font-size: 20px;
+}
+
+ul{
+	float: right;
+	list-style-type: none;
+	margin-top: 20px;
+}
+
+ul li{
+	display: inline-block;
+}
+
+ul li a{
+	text-decoration: none;
+	color: #fff;
+	padding:  px 20px;
+	border: 1px solid #fff;
+}
+
+.button {
+    color: white;
+	padding: 5px;
+	border: 2px solid transparent;	
+	transition: 0.6s ease;
+	font-family: cambria;
+	box-shadow: 0 0 5px white;
+	margin-top: 20px;
+}
+
+.button:hover {
+	background-color: white;
+	color: blue;
+} 
+.button1 {
+    color: white;
+	padding: 5px;
+	background: light blue;
+	border: 2px solid transparent;	
+	transition: 0.6s ease;
+	background-color: blue;
+	box-shadow: 0 0 5px white;
+
+}
+
+.button3 {
+    color: white;
+	padding: 5px;
+	border: 2px solid transparent;	
+	transition: 0.6s ease;
+	box-shadow: 0 0 5px white;
+	margin-right: 20px;
+}
+
+.button3:hover {
+	background-color: blue;
+	color: white;
+}
+
+.main {
+	padding: 20px;
+}
+
+.container0 {
+	  color: white;
+	  background: black;
+	  padding: 100px;
+	  margin-bottom: 10px;
+	  background-repeat: no-repeat;
+	  background-size: cover; 
+}
+
+.container1 {
+	  color: white;
+	  background: black;
+	  padding: 100px;
+	  margin-bottom: 10px;
+	  background-repeat: no-repeat;
+	  background-size: cover;
+	  border: 2px blue solid transparent;
+	  box-shadow: 0 0 50px blue;
+}
+
+.container2 {
+	  color: white;
+	  background: black;
+	  padding: 100px;
+	  margin-bottom: 10px;
+	  background-repeat: no-repeat;
+	  background-size: cover;
+	  box-shadow: 0 0 50px blue;
+}
+
+.container3 {
+	  color: white;
+	  background: black;
+	  padding: 100px;
+	  margin-bottom: 10px;
+	  background-repeat: no-repeat;
+	  background-size: cover;	 
+	  box-shadow: 0 0 50px blue;	  
+}
+
+.container4 {
+	  color: white;
+	  background: black;
+	  padding: 100px;
+	  margin-bottom: 10px;
+	  background-repeat: no-repeat;
+	  background-size: cover;	  
+	  box-shadow: 0 0 50px blue;
+}
+
+.container5 {
+	  color: white;
+	  background: black;
+	  padding: 100px;
+	  margin-bottom: 10px;
+	  background-repeat: no-repeat;
+	  background-size: cover;  
+	  box-shadow: 0 0 50px #111E6C;
+}
+
+.container6 {
+	  color: white;
+	  background: black;
+	  padding: 100px;
+	  margin-bottom: 10px;
+	  background-repeat: no-repeat;
+	  background-size: cover;	
+	  box-shadow: 0 0 50px #111E6C;	  
+}
+
+.container7 {
+	  color: white;
+	  padding: 100px;
+	  margin-bottom: 10px;
+	  background-repeat: no-repeat;
+	  background-size: cover; 
+	  box-shadow: 0 0 50px #111E6C;
+}
+
+.wow1 {
+	 padding: 300px;
+	  margin-bottom: 10px;
+	  box-shadow: 0 0 50px #0033cc;
+	  background-image: url(../images/36.jpg);
+	  background-attachment: fixed;
+	  margin: 75px;
+}
+.wow2 {
+	  padding: 300px;
+	  background: white;
+	  margin-bottom: 10px;
+	  box-shadow: 0 0 50px #0033cc;
+	  background-image: url(../images/13.jpg);
+	  background-attachment: fixed;
+	  margin: 75px;
+}
+.wow3 {
+	  padding: 300px;
+	  background: white;
+	  margin-bottom: 10px;
+	  box-shadow: 0 0 50px #0033cc;
+	  background-image: url(../images/2.jpg);
+	  background-attachment: fixed;
+	  margin: 75px;
+}
+.wow4 {
+	  padding: 300px;
+	  background: white;
+	  margin-bottom: 10px;
+	  box-shadow: 0 0 50px #0033cc;
+	  background-image: url(../images/16.jpg);
+	  background-attachment: fixed;
+	  margin: 75px;
+}
+.wow5 {
+	  padding: 300px;
+	  background: white;
+	  margin-bottom: 10px;
+	  box-shadow: 0 0 50px #0033cc;
+	  background-image: url(../images/9.jpg);
+	  background-attachment: fixed;
+	  margin: 75px;
+}
+.wow6 {
+	  padding: 300px;
+	  background: white;
+	  margin-bottom: 10px;
+	  box-shadow: 0 0 50px #0033cc;
+	  background-image: url(../images/26.jpeg);
+	  background-attachment: fixed;
+	  margin: 75px;
+}
+.wow7 {
+	  padding: 300px;
+	  background: white;
+	  margin-bottom: 10px;
+	  box-shadow: 0 0 50px #0033cc;
+	  background-image: url(../images/27.jpeg);
+	  background-attachment: fixed;
+	  margin: 75px;
+}
+.wow8 {
+	  padding: 300px;
+	  background: white;
+	  margin-bottom: 10px;
+	  box-shadow: 0 0 50px #0033cc;
+	  background-image: url(../images/28.jpeg);
+	  background-attachment: fixed;
+	  margin: 75px;
+}
+.footer {
+	background: black;
+	padding: 1px;
+	color: red;
+	box-shadow: 0 0 5px #0033cc;
+	text-align: center;
+}
